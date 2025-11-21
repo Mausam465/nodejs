@@ -1,28 +1,15 @@
-1763640049920: Ner request received
-1763640049957: Ner request received
-1763640051232: Ner request received
-1763640051256: Ner request received
-1763657063510: Ner request received
-1763657063544: Ner request received
-1763657072245: Ner request received
-1763657072274: Ner request received
-1763657083091: Ner request received
-1763657083122: Ner request received
-1763657083602: Ner request received
-1763657083630: Ner request received
-1763657462431: Ner request received
-1763657462458: Ner request received
-1763658258178: / New request received
-1763658258210: /favicon.ico New request received
-1763658281137: / New request received
-1763658281163: /favicon.ico New request received
-1763658823503: / New request received
-1763658823534: /favicon.ico New request received
-1763658828617: / New request received
-1763658828645: /favicon.ico New request received
-1763658829538: / New request received
-1763658829578: /favicon.ico New request received
-1763659036591: /about New request received
-1763659036633: /favicon.ico New request received
-1763659070879: /contact-us New request received
-1763659070913: /favicon.ico New request received
+1763721996922: GET /about?myname=mausam&user1 New request received
+1763722032125: GET /about?myname=mausam&user1 New request received
+1763722061037: GET / New request received
+1763722610847: GET /signup New request received
+1763722633318: GET /signup New request received
+1763722659830: GET /signup New request received
+1763722663629: GET /signup New request received
+1763722680851: GET /signup New request received
+1763722795762: GET /signup New request received
+1763722812069: GET /signup New request received
+1763722848871: GET /signup New request received
+1763722896280: GET /about New request received
+1763722904032: GET /signup New request received
+1763723159770: GET /signup New request received
+1763723173887: GET /about New request received
