@@ -1,6 +1,7 @@
 const express=require('express');
 const users=require('./MOCK_DATA.json');
 const app=express();
+const fs=require('fs');
 const port=8000;
 
 //Middleware-plugin
@@ -63,9 +64,15 @@ app
 app.post('/api/users',(req,res)=>{
     // TODO :create new user
     const body=req.body;
-    console.log('Body',body);
+    // users.push({
+    //     // email:body.email;
+
+    // })//we can also write this as this
+    users.push({...body, id: users.length + 1});
+    fs.writeFile('./MOCK_DATA.json',JSON.stringify(users),(err,data)=>{
+        return res.json({status:'pending'});
+    });
     
-    return res.json({status:'pending'});
 });
 
 
