@@ -1,9 +1,12 @@
 REST API=JSON
-GET/users=list all users (HTML DOCUMENT RENDER)
-GET/api/users=list all users JSON
+GET/users=list all users (HTML DOCUMENT RENDER)->DONE
+GET/api/users=list all users JSON ->DONE
 
 GET/users/1=get the user with id=1
 GET/users/2=get the user with id=2
+Dynamic path parameters
+GET/api/users/:id
+:id->variable->DONE
 
 POST/users=create new user 
 
