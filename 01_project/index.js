@@ -3,6 +3,9 @@ const users=require('./MOCK_DATA.json');
 const app=express();
 const port=8000;
 
+//Middleware-plugin
+app.use(express.urlencoded({extended:false}));
+
 //HTML
 app.get('/users',(req,res)=>{
     const html=`
@@ -59,6 +62,9 @@ app
 //CREATE NEW USER
 app.post('/api/users',(req,res)=>{
     // TODO :create new user
+    const body=req.body;
+    console.log('Body',body);
+    
     return res.json({status:'pending'});
 });
 
